@@ -12,6 +12,7 @@ public class leetcode11 {
             ans=Math.max(area,ans);
             if(height[i]<=height[j])i++;
             else j--;
+
         }
 
         System.out.println(ans);
